@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модуль 10</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="massivFilter">
+        <h1>Filter.mass v1.2</h1>
+        <input type="text" id="massivStrong" class="massivStrong">
+        <button id="massivInput">Передать массив!</button>
+        <form class="radio">
+            <p>Выберете способ фильтрации массива:</p>
+            <div>
+                <input type="radio" name="fMas" value="positive" id="positive">
+                <label for="positive">Положительные числа</label>
+            </div>
+
+            <div>
+                <input type="radio" name="fMas" value="negative" id="negative">
+                <label for="negative">Отрицательные числа</label>
+            </div>
+
+            <div>
+                <input type="radio" name="fMas" value="even" id="even">
+                <label for="even">Чётные числа</label>
+            </div>
+
+            <div>
+                <input type="radio" name="fMas" value="odd" id="odd">
+                <label for="odd">Нечётные числа</label>
+            </div>
+        </form>
+        <div class="display">
+            <div class="display-out">
+                <p>Ваш массив на входе:</p>
+                <div id="massivOut" class="massivOut"></div>
+            </div>
+            <div class="display-out">
+                <p>Ваш массив на выходе:</p>
+                <div id="f-result" class="massivOut"></div>
+            </div>
+
+        </div>
+       
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
